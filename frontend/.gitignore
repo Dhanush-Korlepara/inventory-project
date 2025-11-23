@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Node
+**/node_modules/
+npm-debug.log
+
+# Env & DB
+*.env
+inventory.db
+uploads/
+
+# React build
+frontend/build/
